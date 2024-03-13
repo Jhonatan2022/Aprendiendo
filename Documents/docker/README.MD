@@ -12,12 +12,12 @@
 
 1. Verificamos en los `Features` de Windows que este activado `Windows Subsystem for Linux` y `Virtual Machine Platform`.
 
-![](../img/docker/Features.png)
+![](../../img/docker/Features.png)
 
 4. Confirmamos el checkeo de los siguientes componentes de Docker Desktop:
 
-![](../img/docker/Checks.png)
-![](../img/docker/Check.png)
+![](../../img/docker/Checks.png)
+![](../../img/docker/Check.png)
 
 ```sh
 # Para loguear en docker desde la consola
@@ -26,7 +26,7 @@ docker login -u <username> -p <password> # o docker login
 
 ## Arquitecura de Docker
 
-![](../img/docker/Estructura.png)
+![](../../img/docker/Estructura.png)
 
 ## Hello World
 
@@ -259,7 +259,7 @@ docker copytest:/testing C:\Users\jflorez\Documents\prueba\testing
 
 - - Podemos llegar a la conslusión, que una imágen se conforma de distintas capas de personalización, en base a una capa inicial (base image), la dicha capa, es el más puro estado del SO.
 
-![](../img/docker/image%20reference.png)
+![](../../img/docker/image%20reference.png)
 
 1. Si observamos, partimos desde la base del SO, y vamos agregando capas de personalización hasta obtener la imágen que necesitamos:
 
