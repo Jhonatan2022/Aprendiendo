@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    image: appnode
+    environment:
+      MONGO_URL: "mongodb://db:27017/test"
+    depends_on:
+      - db
+    ports:
+      # Definimos un rango de puertos para que no haya conflictos
+      - "3000"
+    # Definimos un rango de puertos para que no haya conflictos
+
+  db:
+    image: mongo

@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    # Con build indicamos que cree una imagen a partir del directorio actual (.) o que queramos indicarle
+    build: .
+    environment:
+      MONGO_URL: "mongodb://db:27017/test"
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src
+      - /usr/src/node_modules
+    # Usamos --legacy-watch para que no de problemas con nodemon y docker
+    command: npx nodemon --legacy-watch index.js
+
+  db:
+    image: mongo

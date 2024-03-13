@@ -1,0 +1,5 @@
+FROM ubuntu:trusty
+# Etrypoint es el comando por defecto que se ejecuta cuando se crea el contenedor
+ENTRYPOINT ["/bin/ping", "-c", "3"]
+CMD ["localhost"]
+
