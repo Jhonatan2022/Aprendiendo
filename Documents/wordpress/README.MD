@@ -10,4 +10,4 @@
 
 ![](../../img/wordpress/carpeta.png)
 
-</details>
+</details>  
