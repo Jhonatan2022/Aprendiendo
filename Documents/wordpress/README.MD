@@ -10,8 +10,12 @@
 
 ![](../../img/wordpress/carpeta.png)
 
-2. Corremos el ervideor de `XAMPP` y abrimos el `Panel de Control` para crear una base de datos.
+2. Corremos el servideor de `XAMPP` y abrimos el `Panel de Control` para crear una base de datos.
 
 ![](../../img/wordpress/creando%20db.png)
+
+3. Ingresamos a `localhost/nombre_proyecto` para iniciar la configuración del `Proyecto`
+
+![](../../img/wordpress/configuracion.png)
 
 </details>  
