@@ -10,4 +10,8 @@
 
 ![](../../img/wordpress/carpeta.png)
 
+2. Corremos el ervideor de `XAMPP` y abrimos el `Panel de Control` para crear una base de datos.
+
+![](../../img/wordpress/creando%20db.png)
+
 </details>  
