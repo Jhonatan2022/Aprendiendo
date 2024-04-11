@@ -18,4 +18,8 @@
 
 ![](../../img/wordpress/configuracion.png)
 
+4. Terminanos de diligenciar los campos y damos clic en `Instalar WordPress`
+
+![](../../img/wordpress/Instalacion.png)
+
 </details>  
