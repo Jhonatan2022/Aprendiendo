@@ -22,4 +22,8 @@
 
 ![](../../img/wordpress/Instalacion.png)
 
+5. Ingresamos y aremos el `Login` con los datos que ingresamos en la configuración
+
+![](../../img/wordpress/inv.png)
+
 </details>  
